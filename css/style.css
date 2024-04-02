@@ -400,10 +400,11 @@ ul.search li a:hover {
 /** banner section **/
 
 .full_bg {
-     background: url(../images/banner2.jpg);
+     background: url(../images/banner/1.jpg);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
+     height: 120vh;
 }
 
 .banner_main {
@@ -458,7 +459,7 @@ ul.search li a:hover {
      opacity: 1;
      font-size: 42px;
      color: #fff;
-     top: 134%;
+     top: 114% ;
      border-radius: 40px;
 }
 
