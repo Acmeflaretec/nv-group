@@ -406,6 +406,12 @@ ul.search li a:hover {
      background-repeat: no-repeat;
      height: 120vh;
 }
+@media only screen and (max-width: 768px) {
+.full_bg{
+height: 80vh;
+
+}
+}
 
 .banner_main {
      position: relative;
