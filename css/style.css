@@ -735,12 +735,13 @@ ul.search li a:hover {
 /** choose section **/
 
 .choose {
-     background: url(../images/choose_bg.jpg);
+     background: url(../images/gallery/rear-view-businessman-talking-phone-city.jpg);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
      padding: 60px 0;
      margin-top: 90px;
+     max-height: 90vh;
 }
 
 .choose .titlepage {
@@ -764,6 +765,7 @@ ul.search li a:hover {
      display: flex;
      align-items: center;
      flex-wrap: wrap;
+     margin-top: -50px;
 }
 
 .award_icon {
