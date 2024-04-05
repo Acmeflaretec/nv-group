@@ -1347,7 +1347,20 @@ ul.insta li {
      }
      /* end truck*/
 
+.top-down{
+     margin-top: -500px !important;
+}
 
+.back_re{
+     margin-top: -500px;
+}
 
+@media only screen and (max-width: 768px) {
+
+.back_re{
+     margin-top: -300px;
+}
+
+}
 
      
