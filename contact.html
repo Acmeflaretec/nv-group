@@ -45,109 +45,110 @@
       </div>
       <!-- end loader -->
       <!-- header -->
-      <header class="full_bg">
-         <!-- header inner -->
-         <div class="header">
-            <div class="header_top">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-3">
-                        <ul class="contat_infoma">
-                           <li><i class="fa fa-phone" aria-hidden="true"></i> Call : +01 12345678909</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-6">
-                        <ul class="social_icon_top text_align_center  ">
-                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
-                     <div class="col-md-3">
-                        <ul class="contat_infoma text_align_right">
-                           <li><a href="Javascript:void(0)"> <i class="fa fa-phone" aria-hidden="true"></i> demo@gmail.com</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="header_bottom">
-                        <div class="row">
-                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                              <div class="full">
-                                 <div class="center-desk">
-                                    <div class="logo">
-                                       <a href="index.html">NV Group</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                              <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                                 <span class="navbar-toggler-icon"></span>
-                                 </button>
-                                 <div class="collapse navbar-collapse" id="navbarsExample04">
-                                    <ul class="navbar-nav mr-auto">
-                                       <li class="nav-item ">
-                                          <a class="nav-link" href="index.html">Home</a>
-                                       </li>
-                                       <li class="nav-item">
-                                          <a class="nav-link" href="about.html">About</a>
-                                       </li>
-                                       <li class="nav-item">
-                                          <a class="nav-link" href="project.html">service's</a>
-                                       </li>
-                                      
-                                       <li class="nav-item active">
-                                          <a class="nav-link" href="contact.html">Contact Us</a>
-                                       </li>
-                                    </ul>
-                                 </div>
-                                 <ul class="search">
-                                    <li><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                 </ul>
-                              </nav>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end header inner -->
-         <!-- end header -->
-         <!-- banner -->
-      </header>
+  
       <style>
-         .back_re{
-           margin-top: -500px;
-      }
-      
-      @media only screen and (max-width: 768px) {
-      
-      .back_re{
-           margin-top: -280px;
-      }
-      
-      }
-      
+         .navbar {
+    font-size: 18px;
+    background-color : #fe9901;
+    padding-bottom: 15px;
+}
+/*nav bar*/
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: black;
+}
+.main-nav li {
+    text-align: center;
+    margin: 12px auto;
+}
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+}
+
+/*hide nav menue*/
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.active {
+  display: block;
+}
+/* for desktop*/
+@media screen and (min-width: 550px) {
+  .navbar-toggle {
+       display: none;
+    }
+  .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 110px;
+        align-items: center;
+    }
+  .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+  .logo:hover,
+   .nav-links:hover {
+      color: white;
+    }
+  .logo {
+      margin-top: 0;
+            } 
+}
+
+p{
+  text-align : center;
+  padding : 100px;
+  margin-top :100px;
+  color : orange;
+  font-size: 30px;
+}
       </style>
-      <div class="back_re" >
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="title">
-                     <h2>Contact Us</h2>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+       
+      <nav class="navbar">
+         <span class="navbar-toggle" id="js-navbar-toggle">
+         <svg width="24" height="24" viewBox="0 0 24 24">
+         <path d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"></path>
+           </svg></span>
+         <a href="#" class="logo">NV Group</a>
+         <ul class="main-nav" id="js-menu">
+           <li><a href="index.html" class="nav-links">Home</a></li>
+           <li><a href="about.html" class="nav-links">About Us</a></li>
+           <li><a href="project.html" class="nav-links">service</a></li>
+           <li><a href="contact.html" class="nav-links">Contact Us</a></li>
+         </ul>
+       </nav>
+    
+      <!-- end banner -->
+<script>
+   let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+    
+    mainNav.classList.toggle('active');
+});
+</script>
+
+
       <!--  contact -->
 
       <style>
