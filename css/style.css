@@ -400,11 +400,13 @@ ul.search li a:hover {
 /** banner section **/
 
 .full_bg {
-     background: url(../images/banner/1.jpg);
+     background: url(../images/banner/org3.jpg);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
      height: 120vh;
+     
+     /* filter: blur(5px); */
 }
 @media only screen and (max-width: 768px) {
 .full_bg{
